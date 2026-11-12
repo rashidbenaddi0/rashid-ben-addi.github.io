@@ -61,3 +61,13 @@ body.english{direction:ltr}body.english .topbar,body.english .hero,body.english 
   .work-info p:not(.work-type){font-size:11px}
   .original-cover{width:min(100%,118px)}
 }
+
+
+/* Articles archive */
+.articles-section{padding-top:88px;padding-bottom:88px;background:var(--paper)}
+.articles-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 34px;border-top:1px solid var(--line)}
+.article-card{padding:22px 0 24px;border-bottom:1px solid var(--line);min-width:0}
+.article-card h3{font-size:23px;line-height:1.5;margin:8px 0 12px}
+.article-card a,.articles-archive-link a{font-size:13px;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--accent);padding-bottom:4px}
+.articles-archive-link{margin-top:28px}
+@media(max-width:620px){.articles-section{padding-top:64px;padding-bottom:64px}.articles-grid{grid-template-columns:1fr}.article-card h3{font-size:20px}}
